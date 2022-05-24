@@ -4,7 +4,7 @@ import cors from 'cors';
 
 
 const server = express();
-
+    
 
 //escrevendo os end points da API feita com express:
 server.get('/status', (_, response) => {
